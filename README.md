@@ -1,6 +1,6 @@
 🧮 Calculator Pro+
 
-A modern, responsive, and feature-rich calculator built using HTML5, CSS3, and JavaScript. Designed with a clean UI, smooth animations, scientific functions, memory operations, calculation history, theme switching, and full mobile/desktop compatibility.
+A modern, responsive, and feature-rich calculator built using HTML5, CSS3, and JavaScript. Designed with a clean interface, smooth animations, scientific functions, memory operations, calculation history, theme switching, and full mobile/desktop compatibility.
 
 🚀 Features
 
@@ -57,8 +57,8 @@ A modern, responsive, and feature-rich calculator built using HTML5, CSS3, and J
 
 💽 Local Storage
 
-- Saves Theme
-- Saves History
+- Saves Theme Preferences
+- Saves Calculation History
 - Saves Memory Values
 
 📱 Responsive Design
@@ -76,15 +76,6 @@ Fully optimized for:
 - CSS3
 - JavaScript (Vanilla JS)
 - Local Storage API
-
-📂 Project Structure
-
-Calculator-Pro/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
 
 🎯 Project Purpose
 
@@ -120,7 +111,13 @@ Add screenshots or GIFs of your calculator here.
 
 This project is open-source and available for learning, customization, and personal use.
 
----
+📂 Project Structure
+
+Calculator-Pro
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 
 ⭐ If you like this project, consider giving it a star on GitHub!
 
