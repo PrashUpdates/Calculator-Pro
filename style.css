@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+    -webkit-tap-highlight-color:
+    transparent;
+
+    user-select:none;
+}
+
+body{
+
+    min-height:100vh;
+
+    padding:20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+    font-family:
+    'Poppins',
+    sans-serif;
+
+    background:
+    linear-gradient(
+        135deg,
+        #020617,
+        #0f172a,
+        #1e293b
+    );
+
+    color:white;
+}
+
+/* Theme Button */
+
+#themeBtn{
+
+    position:fixed;
+
+    top:15px;
+
+    right:15px;
+
+    width:50px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    z-index:999;
+
+    background:
+    rgba(
+        255,
+        255,
+        255,
+        .08
+    );
+
+    backdrop-filter:
+    blur(15px);
+
+    border:
+    1px solid
+    rgba(
+        255,
+        255,
+        255,
+        .12
+    );
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    box-shadow:
+    0 10px 25px
+    rgba(
+        0,
+        0,
+        0,
+        .25
+    );
+}
+
+.theme-icon{
+
+    font-size:22px;
+
+    font-weight:700;
+
+    color:white;
+}
+
+/* Container */
+
+.container{
+
+    width:100%;
+
+    max-width:700px;
+
+    margin-top:25px;
+}
+
+/* Calculator Box */
+
+.calculator{
+
+    background:
+    rgba(
+        255,
+        255,
+        255,
+        .05
+    );
+
+    backdrop-filter:
+    blur(20px);
+
+    border:
+    1px solid
+    rgba(
+        255,
+        255,
+        255,
+        .08
+    );
+
+    border-radius:30px;
+
+    padding:20px;
+
+    box-shadow:
+    0 25px 60px
+    rgba(
+        0,
+        0,
+        0,
+        .35
+    );
+}
+
+/* Header */
+
+.header{
+
+    text-align:center;
+
+    margin-bottom:15px;
+}
+
+.header h1{
+
+    font-size:3rem;
+
+    font-weight:900;
+
+    letter-spacing:2px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #60a5fa,
+        #22c55e,
+        #f59e0b
+    );
+
+    -webkit-background-clip:
+    text;
+
+    -webkit-text-fill-color:
+    transparent;
+}
+
+#liveTime{
+
+    margin-top:5px;
+
+    color:#94a3b8;
+
+    font-size:14px;
+}
+
+/* ======================
+   DISPLAY SECTION
+====================== */
+
+.display-section{
+
+    background:
+    linear-gradient(
+        145deg,
+        rgba(255,255,255,.08),
+        rgba(255,255,255,.03)
+    );
+
+    border:
+    1px solid
+    rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:15px;
+
+    min-height:100px;
+
+    text-align:right;
+
+    margin-bottom:15px;
+}
+
+.expression{
+
+    min-height:28px;
+
+    font-size:1.3rem;
+
+    font-weight:600;
+
+    color:#94a3b8;
+
+    word-break:break-word;
+}
+
+/* Memory Indicator */
+
+.memory-indicator{
+
+    min-height:22px;
+
+    margin-top:4px;
+
+    margin-bottom:4px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    color:#fbbf24;
+}
+
+.result{
+
+    font-size:2.5rem;
+
+    font-weight:800;
+
+    color:white;
+
+    word-break:break-word;
+}
+
+/* ======================
+   MEMORY BUTTONS
+====================== */
+
+.memory-buttons{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:10px;
+
+    margin-bottom:12px;
+}
+
+.memory-buttons button{
+
+    height:52px;
+
+    border:none;
+
+    border-radius:14px;
+
+    cursor:pointer;
+
+    color:white;
+
+    font-size:1rem;
+
+    font-weight:700;
+
+    background:
+    linear-gradient(
+        145deg,
+        #8b5cf6,
+        #7c3aed
+    );
+
+    box-shadow:
+    0 5px 15px
+    rgba(124,58,237,.35);
+
+    transition:.12s;
+}
+
+/* ======================
+   SCIENTIFIC BUTTONS
+====================== */
+
+.scientific-buttons{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:10px;
+
+    margin-bottom:15px;
+}
+
+.scientific-buttons button{
+
+    height:52px;
+
+    border:none;
+
+    border-radius:14px;
+
+    cursor:pointer;
+
+    color:white;
+
+    font-size:1rem;
+
+    font-weight:700;
+
+    background:
+    linear-gradient(
+        145deg,
+        #06b6d4,
+        #0891b2
+    );
+
+    box-shadow:
+    0 5px 15px
+    rgba(8,145,178,.35);
+
+    transition:.12s;
+}
+
+.memory-buttons button:hover,
+.scientific-buttons button:hover{
+
+    transform:
+    translateY(-2px);
+}
+
+/* ======================
+   MAIN BUTTONS
+====================== */
+
+.buttons{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:12px;
+
+    margin-bottom:12px;
+}
+
+.buttons button{
+
+    height:65px;
+
+    border:none;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    font-size:1.15rem;
+
+    font-weight:700;
+
+    color:white;
+
+    background:
+    linear-gradient(
+        145deg,
+        #334155,
+        #1e293b
+    );
+
+    box-shadow:
+    0 6px 15px
+    rgba(0,0,0,.25);
+
+    transition:
+    .08s;
+}
+
+/* Number Button Press */
+
+.buttons button:active,
+.memory-buttons button:active,
+.scientific-buttons button:active,
+.equal:active{
+
+    transform:
+    scale(.96);
+}
+
+/* Operators */
+
+.operator{
+
+    background:
+    linear-gradient(
+        145deg,
+        #3b82f6,
+        #2563eb
+    ) !important;
+}
+
+/* Clear */
+
+.clear{
+
+    background:
+    linear-gradient(
+        145deg,
+        #ef4444,
+        #dc2626
+    ) !important;
+}
+
+/* Delete */
+
+.delete{
+
+    background:
+    linear-gradient(
+        145deg,
+        #fb923c,
+        #ea580c
+    ) !important;
+}
+
+/* Zero Button */
+
+.zero{
+
+    grid-column:
+    span 2;
+}
+
+/* ======================
+   BIG EQUAL BUTTON
+====================== */
+
+.equal{
+
+    width:100%;
+
+    height:80px;
+
+    border:none;
+
+    border-radius:20px;
+
+    cursor:pointer;
+
+    color:white;
+
+    font-size:2rem;
+
+    font-weight:900;
+
+    background:
+    linear-gradient(
+        145deg,
+        #22c55e,
+        #16a34a
+    );
+
+    box-shadow:
+    0 10px 25px
+    rgba(34,197,94,.35);
+}
+
+/* ======================
+   HISTORY PANEL
+====================== */
+
+.history-panel{
+
+    margin-top:20px;
+
+    background:
+    rgba(255,255,255,.05);
+
+    backdrop-filter:
+    blur(20px);
+
+    border:
+    1px solid
+    rgba(255,255,255,.08);
+
+    border-radius:25px;
+
+    padding:18px;
+}
+
+.history-header{
+
+    display:flex;
+
+    justify-content:
+    space-between;
+
+    align-items:center;
+
+    margin-bottom:15px;
+}
+
+.history-header h2{
+
+    color:#60a5fa;
+
+    font-size:1.3rem;
+
+    font-weight:700;
+}
+
+#clearHistory{
+
+    border:none;
+
+    padding:10px 15px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    color:white;
+
+    font-weight:600;
+
+    background:
+    linear-gradient(
+        145deg,
+        #ef4444,
+        #dc2626
+    );
+}
+
+#historyList{
+
+    max-height:250px;
+
+    overflow-y:auto;
+}
+
+.history-item{
+
+    padding:12px;
+
+    margin-bottom:10px;
+
+    border-radius:12px;
+
+    background:
+    rgba(255,255,255,.08);
+
+    font-weight:500;
+
+    word-break:break-word;
+}
+
+.empty-history{
+
+    text-align:center;
+
+    color:#94a3b8;
+
+    padding:20px;
+}
+
+/* ======================
+   LIGHT MODE
+====================== */
+
+.light{
+
+    background:
+    linear-gradient(
+        135deg,
+        #f8fafc,
+        #e2e8f0
+    );
+
+    color:#111827;
+}
+
+.light .calculator,
+.light .history-panel{
+
+    background:white;
+
+    border:
+    1px solid
+    #dbeafe;
+}
+
+.light .display-section{
+
+    background:#f8fafc;
+}
+
+.light .expression{
+
+    color:#64748b;
+}
+
+.light .result{
+
+    color:#111827;
+}
+
+.light .theme-icon{
+
+    color:#111827;
+}
+
+.light .history-item{
+
+    background:#f1f5f9;
+
+    color:#111827;
+}
+
+/* ======================
+   FAST TOUCH
+====================== */
+
+button{
+
+    touch-action:
+    manipulation;
+
+    -webkit-tap-highlight-color:
+    transparent;
+}
+
+/* ======================
+   MOBILE RESPONSIVE
+====================== */
+
+@media(max-width:600px){
+
+    .header h1{
+
+        font-size:2.2rem;
+    }
+
+    .result{
+
+        font-size:2rem;
+    }
+
+    .buttons button{
+
+        height:58px;
+
+        font-size:1rem;
+    }
+
+    .equal{
+
+        height:70px;
+
+        font-size:1.6rem;
+    }
+
+    .memory-buttons button,
+    .scientific-buttons button{
+
+        height:48px;
+    }
+
+    #themeBtn{
+
+        width:42px;
+
+        height:42px;
+    }
+}
