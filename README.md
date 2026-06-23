@@ -111,14 +111,6 @@ Add screenshots or GIFs of your calculator here.
 
 This project is open-source and available for learning, customization, and personal use.
 
-📂 Project Structure
-
-Calculator-Pro
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
 ⭐ If you like this project, consider giving it a star on GitHub!
 
 💻 Built With
@@ -128,3 +120,14 @@ Calculator-Pro
 - JavaScript (Vanilla JS)
 
 Built with ❤️ using HTML5, CSS3, and JavaScript.
+
+## 📂 Project Structure
+
+```text
+Calculator-Pro/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
