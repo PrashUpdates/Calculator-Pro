@@ -1,5 +1,4 @@
-🧮 Calculator Pro+
----
+# 🧮 Calculator Pro+
 
 A modern, responsive calculator built using HTML5, CSS3, and JavaScript — with scientific functions, memory operations, calculation history, and theme switching.
 
