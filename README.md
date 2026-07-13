@@ -1,133 +1,32 @@
 🧮 Calculator Pro+
+---
 
-A modern, responsive, and feature-rich calculator built using HTML5, CSS3, and JavaScript. Designed with a clean interface, smooth animations, scientific functions, memory operations, calculation history, theme switching, and full mobile/desktop compatibility.
+A modern, responsive calculator built using HTML5, CSS3, and JavaScript — with scientific functions, memory operations, calculation history, and theme switching.
 
-🚀 Features
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-🔢 Basic Calculations
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Decimal Support
-- Percentage Calculations
 
-🧠 Scientific Functions
+## ✨ Features
 
-- Square Root (√)
-- Square (x²)
-- Inverse (1/x)
+- 🔢 Basic Calculations — add, subtract, multiply, divide, decimals, percentage
+- 🧠 Scientific Functions — √, x², 1/x
+- 💾 Memory Functions — MC, MR, M+, M−, memory indicator
+- 📜 Calculation History — auto-saved via Local Storage
+- 🌙 Theme Support — dark / light, preference remembered
+- ⌨️ Keyboard Support — numbers, operators, Enter, Backspace, Escape
+- 🎨 Glassmorphism UI with smooth button animations
+- 📱 Fully Responsive — mobile, tablet, and desktop
 
-💾 Memory Functions
 
-- MC (Memory Clear)
-- MR (Memory Recall)
-- M+ (Memory Add)
-- M- (Memory Subtract)
-- Memory Status Indicator
-
-📜 Calculation History
-
-- Automatically saves calculations
-- History stored using Local Storage
-- Clear History button
-
-🌙 Theme Support
-
-- Dark Mode
-- Light Mode
-- Theme preference saved automatically
-
-⌨️ Keyboard Support
-
-- Numeric Input
-- Operators (+, -, ×, ÷)
-- Enter Key Support
-- Backspace Support
-- Escape Key Support
-
-🎨 Modern UI
-
-- Glassmorphism Design
-- Smooth Button Animations
-- Full Width "=" Button
-- Professional Color Palette
-- Responsive Layout
-
-💽 Local Storage
-
-- Saves Theme Preferences
-- Saves Calculation History
-- Saves Memory Values
-
-📱 Responsive Design
-
-Fully optimized for:
-
-- 📱 Smartphones
-- 📲 Tablets
-- 💻 Laptops
-- 🖥️ Desktop Computers
-
-🛠️ Technologies Used
+## 🚀 Built With
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript (Vanilla)
 - Local Storage API
 
-🎯 Project Purpose
 
-Calculator Pro+ was created to demonstrate modern front-end development techniques while providing a practical and visually appealing calculator experience.
-
-This project showcases:
-
-- DOM Manipulation
-- Event Handling
-- Responsive Web Design
-- Local Storage Management
-- UI/UX Design Principles
-- Interactive JavaScript Features
-
-⭐ Highlights
-
-✔ Responsive Design
-✔ Scientific Functions
-✔ Memory Operations
-✔ History Tracking
-✔ Theme Switching
-✔ Keyboard Shortcuts
-✔ Local Storage Support
-✔ Smooth Animations
-✔ Mobile & Desktop Friendly
-✔ Lightweight & Fast
-
-📸 Preview
-
-Add screenshots or GIFs of your calculator here.
-
-📄 License
-
-This project is open-source and available for learning, customization, and personal use.
-
-⭐ If you like this project, consider giving it a star on GitHub!
-
-💻 Built With
-
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-
-Built with ❤️ using HTML5, CSS3, and JavaScript.
-
-## 📂 Project Structure
-
-```text
-Calculator-Pro/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+⭐ Beginner-friendly UI project — star it if you find it useful!
