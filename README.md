@@ -1,10 +1,18 @@
-# 🧮 Calculator Pro+
+# 🧮 Calculator Pro
 
 A responsive calculator with scientific functions, memory, history, and theme switching. Built with HTML5, CSS3, and JavaScript.
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50"/>
+</p>
+<p align="center">
+<img src="https://img.shields.io/badge/Responsive-Yes-22C55E?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Animations-5-8B5CF6?style=for-the-badge">
+
+</p>
+
 
 ## ✨ Features
 - Basic + scientific ops (√, x², 1/x)
