@@ -23,4 +23,4 @@ A responsive calculator with scientific functions, memory, history, and theme sw
 - Responsive, glassmorphism UI
 
 
-⭐ Star it if you find it useful.
+<h1> ⭐ Star it if you find it useful..</h1>
