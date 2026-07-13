@@ -14,7 +14,7 @@ A responsive calculator with scientific functions, memory, history, and theme sw
 </p>
 
 
-## ✨ Features
+## 🪐 Features
 - Basic + scientific ops (√, x², 1/x)
 - Memory: MC, MR, M+, M−
 - History via Local Storage
